@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); */
+}
+
+::-webkit-scrollbar {
+
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #15F5BA;
+  width: fit-content;
+  padding: 15px 25px;
+  /* color: #fff; */
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 0;
+  margin-top: 50px;
+  transition: all 0.35s ease-out;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: #15F5BA;
+  bottom: 12px;
+  color: #000;
+  box-shadow: 0 0 20px 1px rgba(106, 205, 192, 0.65);
+}
+
+.btn:active {
+  background-color: #11c494;
+}
+
+@media  screen and (max-width: 750px) {
+  .btn {
+    font-size: 16px;
+  }
+}
+
+.SectionTitle{
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0 -5vh 0;
+}
+.staticTitle {
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+
+}
+
+.staticTitle .hrLine {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.6);
+  margin: 0 20px;
+  width: 10vw;
+}
+
+@media screen and (max-width: 950px) {
+.staticTitle {
+      font-size: 45px;
+  }
+
+}
+@media screen and (max-width: 750px) {
+
+
+  .staticTitle {
+      font-size: 6vw;
+  }
+
+  .staticTitle .hrLine {
+      width: 11vw;
+  }
+
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
