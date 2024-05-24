@@ -24,7 +24,8 @@ const HomeBanner = React.forwardRef((props, ref) => {
         <div className="mask">
             {/* <img className='bg' src={cartoon} alt="boy-with-laptop" /> */}
             {/* <img className='bg' style={{"opacity":"0.2","mixBlendMode":"luminosity"}} src="https://i.pinimg.com/originals/bc/c8/54/bcc854b36353728426eab383f9a16462.gif" alt="boy-with-laptop" /> */}
-            <img className='bg' style={{"opacity":"0.125","mixBlendMode":"luminosity","height":"100vh"}} src="https://i.imgur.com/k0ISwq7.gif" alt="boy-with-laptop" />
+            <img className='bg' style={{"opacity":"0.25","mixBlendMode":"luminosity","height":"110vh"}} src="https://i.imgur.com/k0ISwq7.gif" alt="boy-with-laptop" />
+            {/* <img className='bg' style={{"opacity":"0.75","height":"100vh"}} src="https://www.thisiscolossal.com/wp-content/uploads/2024/01/spherewave.gif" alt="boy-with-laptop" /> */}
         </div>
     </div>
     </div>

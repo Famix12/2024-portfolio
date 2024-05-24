@@ -104,6 +104,7 @@ import HomeBanner from "./components/HomeBanner";
 import ProjectCard from "./components/ProjectCard";
 import AboutMe from "./components/AboutMe";
 import SkillCard from "./components/SkillCard";
+import Achive from "./components/Achive";
 import ContactForm from "./components/ContactForm";
 import AnimatedCursor from "react-animated-cursor";
 import useIntersectionObserver from "./useIntersectionObserver"; // Import the custom hook
@@ -203,6 +204,21 @@ function App() {
         </div>
         <SkillCard id="skills" ref={(el) => (sectionsRef.current[7] = el)} />
         {/* later add atchivements section */}
+        
+        <div
+          className="SectionTitle"
+          ref={(el) => (sectionsRef.current[6] = el)}
+        >
+          <div className="staticTitle">
+            <div className="hrLine"></div>
+            {/* My Achievements */}
+            Participactions
+            <div className="hrLine"></div>
+          </div>
+        </div>
+
+        <Achive id="achive" ref={(el) => (sectionsRef.current[8] = el)} />
+        
         <ContactForm id="contact" ref={(el) => (sectionsRef.current[8] = el)} />
         <Footer />
       </div>

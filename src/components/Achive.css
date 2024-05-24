@@ -1,0 +1,114 @@
+.achive-container {
+    /* display: flex;
+    justify-content: center; */
+    /* display: grid; */
+    /* grid-template-columns: 75% 25%; */
+    /* grid-template-rows: 50% 50%; */
+    /* align-items: center;
+    justify-items: center; */
+    display: flex;
+    flex-direction: column;
+    /* flex-flow:wrap; */
+    padding: 5vh 50vh;
+    justify-content: center;
+    align-items:stretch;
+
+}
+
+/* .achive-card-container{
+
+
+} */
+
+.achive-card {
+    /* max-width: 100vw; */
+    /* height: 200px; */
+    /* margin: 10px; */
+    margin: 2rem 2rem 0;
+    /* background-color: #ffffff; */
+}
+
+.achive-card h2 {
+    /* color: rgba(255, 255, 255, 0.593); */
+    color: rgb(73, 216, 183);
+    /* color: rgb(255, 255, 255); */
+}
+
+.achive-card h5 {
+    /* color: rgba(255, 255, 255, 0.593); */
+    color: rgba(255, 255, 255, 0.392);
+    font-weight: 200;
+}
+
+.achive-card h4 {
+    /* color: rgba(255, 255, 255, 0.593); */
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.achive-card-statbox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.achive-card-statbox span {
+    margin: 1rem 5rem 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achive-card-statbox span svg {
+    margin-right: 10px;
+}
+
+
+.achive-img {
+    opacity: 0.33;
+    z-index: -1 !important;
+    position: absolute;
+    /* height: 70vh; */
+    right: 10vh;
+    /* top: 0; */
+    /* mix-blend-mode: luminosity; */
+}
+
+@media screen and (max-width: 950px) {
+
+    .achive-container {
+        display: flex;
+        flex-direction: column;
+        padding: 5vh 1vh;
+        justify-content: center;
+        align-items:center;
+        flex-wrap: wrap;
+        text-align: justify;
+    
+    }
+    .achive-card-statbox {
+        font-size: 1.25em;
+
+        /* text-align: center; */
+    }
+
+
+    .achive-card h2 {
+        /* color: rgba(255, 255, 255, 0.593); */
+        font-size: 1em
+            /* color: rgb(255, 255, 255); */
+    }
+
+    .achive-card h5 {
+        /* color: rgba(255, 255, 255, 0.593); */
+        font-size: 0.75em
+
+    }
+
+    .achive-card h4 {
+        /* color: rgba(255, 255, 255, 0.593); */
+        font-size: 0.80em;
+        text-wrap: wrap;
+    }
+}
