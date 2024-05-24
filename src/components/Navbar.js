@@ -6,8 +6,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaBars,
-  FaTimes,
-  FaTwitter
+  FaTimes
 } from "react-icons/fa";
 
 import { FaXTwitter } from "react-icons/fa6";
