@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cbd01f6c.css",
-    "main.js": "/static/js/main.6d6b3779.js",
+    "main.js": "/static/js/main.06d81a1b.js",
     "static/media/profile-image2.jpg": "/static/media/profile-image2.db4e50b418812542aa74.jpg",
     "static/media/UniversityEvents.jpg": "/static/media/UniversityEvents.5908f3119e7325fd23d7.jpg",
     "static/media/achive.png": "/static/media/achive.61cadc35df205fd61341.png",
@@ -9,10 +9,10 @@
     "static/media/cartoon-compressed.png": "/static/media/cartoon-compressed.75fcf5a15f1519b1a501.png",
     "index.html": "/index.html",
     "main.cbd01f6c.css.map": "/static/css/main.cbd01f6c.css.map",
-    "main.6d6b3779.js.map": "/static/js/main.6d6b3779.js.map"
+    "main.06d81a1b.js.map": "/static/js/main.06d81a1b.js.map"
   },
   "entrypoints": [
     "static/css/main.cbd01f6c.css",
-    "static/js/main.6d6b3779.js"
+    "static/js/main.06d81a1b.js"
   ]
 }
